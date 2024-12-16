@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    margin: 5rem;
+}
+
+#loader-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255, 0.9);
+
+}
+
+.loading-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.picture-container {
+   margin: 10px 30%;
+}
+
+.picture-container img {
+    width: 100%;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px){
+    
+    h1{
+        font-size: 2rem;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .picture-container{
+        margin: 10px;
+    }
+}
